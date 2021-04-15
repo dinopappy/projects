@@ -29,7 +29,7 @@ const cards = [
   $div.css("text-align", "center")
   $div.css("background-color", "black")
   $div.css("color", "white")
-  $div.css("display", "flex")
+
 
   $("div").on("click", (event) => {
     const randomPic = cards[Math.floor(Math.random() * cards.length)];
